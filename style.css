@@ -1,0 +1,129 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(OCRAEXT.TTF);
+}
+
+div {
+    font-family: myFirstFont;
+}
+
+body {
+    background-color: black;
+
+}
+
+#logo {
+    display: inline-block;
+    width: 796.5px;
+    height: 120.375px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#gifHeader {
+    display: inline-block;
+    width: 351px;
+    height: 171px;
+
+}
+
+.header {
+    padding: 10px 16px;
+    text-align: center;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.linkRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    color: white;
+    opacity: 80%;
+}
+
+h2 {
+    color:white;
+}
+
+.mainContent {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    display: inline;
+}
+
+.row {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 44%;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+    width: 31%;
+}
+
+.linkRow {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 44%;
+    text-align: center;
+    
+}
+
+.gifDiv {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.column2 {
+    padding: 15px;
+    width: auto;
+}
+
+.linkRow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
